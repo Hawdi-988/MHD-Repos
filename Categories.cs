@@ -11,5 +11,6 @@ namespace WebApplication_test_001130
         [Key]
         public int CategoryID { get; set; }
         public string CaregoryName { get; set; }
+        public PrductsCategories PrductsCategory { get; set; }
     }
 }

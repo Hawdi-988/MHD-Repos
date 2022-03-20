@@ -11,5 +11,6 @@ namespace WebApplication_test_001130
         [Key] public int ViewerID { get; set; }
         public string ViewerName { get; set; }
         public string ViewerEmail { get; set; }
+        public Comments coment { get; set; }
     }
 }

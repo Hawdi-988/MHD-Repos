@@ -12,5 +12,7 @@ namespace WebApplication_test_001130
         public string ProductName { get; set; }
         public int ProductCost { get; set; }
         public string ProductImage { get; set; }
+        public PrductsCategories PrductsCategory { get; set; }
+        public Comments Comment { get; set; }
     }
 }
